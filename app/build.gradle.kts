@@ -49,6 +49,8 @@ dependencies {
     implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.ui.test.android)
 
+    androidTestImplementation(libs.androidx.fragment.testing)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
 
